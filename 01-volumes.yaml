@@ -7,13 +7,13 @@ spec:
   - image: nginx
     name: nginx
     volumeMounts:
-    - mouthPath: /var/log/nginx
+    - monthPath: /var/log/nginx
       name: nginx-logs
   - image: almalinux:9
     name: almalinux
     command: ["sleep", "20000" ]
     volumeMounts:
-    - mouthPath: /mnt/nginx-logs
+    - monthPath: /mnt/nginx-logs
       name: nginx-logs
       readOnly: true
   volumes: 
