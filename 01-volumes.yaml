@@ -11,7 +11,7 @@ spec:
       name: nginx-logs
   - image: almalinux:9
     name: almalinux
-    command:["sleep", "20000" ]
+    command: ["sleep", "20000" ]
     volumeMounts:
     - mouthPath: /mnt/nginx-logs
       name: nginx-logs
