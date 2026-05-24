@@ -37,7 +37,7 @@ spec:
     volumeMounts:
     - name: html-data
       mountPath: /usr/share/nginx/html
-  volume: 
+  volumes: 
   - name: html-data
     PersistentVolumeClaim: 
       claimName: ebs
